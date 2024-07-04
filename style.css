@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-image: url(gambar3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Roboto Condensed", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.logo a {
+  text-decoration: none;
+  color: black;
+  font-size: 48px;
+  font-weight: 900;
+}
+.list-nav {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.list-nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+}
+.login-signup {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.login-signup a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+}
+.btn1 {
+  font-size: 24px;
+  font-weight: 600;
+  background-color: rgba(192, 27, 27, 0);
+  border-radius: 10px;
+  backdrop-filter: blur(30px);
+  border: 1px solid black;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 2px 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.hero-content {
+  text-align: center;
+  color: white;
+  word-spacing: 3px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(35px);
+  padding: 20px 30px;
+  padding-bottom: 40px;
+  width: 80%;
+  margin: 10vh auto;
+  box-sizing: border-box;
+}
+.btn2 {
+  font-weight: 600;
+  padding: 5px 10px;
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.322);
+  backdrop-filter: blur(35px);
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
